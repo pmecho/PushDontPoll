@@ -1,0 +1,24 @@
+#Ignore build files
+build/
+bin/
+gen/
+target/
+google_generated/
+
+#Ignore OSX Noise
+.DS_Store
+
+local.properties
+
+#Ignore idea stuff
+out/
+.idea/
+*.iml
+
+#Gradle
+.gradle
+gradle/*
+gradlew*
+
+#AppEngine
+datanucleus.log
